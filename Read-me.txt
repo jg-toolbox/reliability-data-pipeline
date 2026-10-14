@@ -1,0 +1,9 @@
+# Reliability Data Pipeline
+
+End-to-end Databricks project demonstrating incremental file ingestion with Auto Loader, synthetic reliability/parametric data, and a medallion architecture (Bronze → Silver → Gold).
+
+## What it shows
+- Generating realistic synthetic device data with noise, outliers, and degradation
+- Incremental ingestion via Auto Loader (file arrival pattern)
+- Data quality checks and transformations
+- Domain-relevant outputs (parametric summaries, basic reliability-style metrics)
